@@ -9,7 +9,6 @@ A basic twitch chat bot that utilizes the libraries: twitchio v2.8.2, Random, an
 - [ ] Song Requests (Future)
 
 ### Bot Set Up
----
 - **getting twitchio with venv**
   - Open the terminal
   - Enter 'cd [location of folder]'
@@ -41,6 +40,7 @@ A basic twitch chat bot that utilizes the libraries: twitchio v2.8.2, Random, an
   #### Development Notes
 
   Not Released Yet
+
 
 
 
