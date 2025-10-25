@@ -1,7 +1,7 @@
 # EclipseBot v1 - IN DEVELOPMENT
 
 ## Overview
-A basic twitch chat bot that utilizes the libraries: twitchio v2.8.2, Random, and [PLACEHOLDER]
+A basic twitch chat bot that utilizes the libraries: twitchio v2.8.2, Random, and Spotipy. This bot was created for OperationCaboose, Hockeyfan608, averyxstream, and maybe myself
 
 ### Features
 - [ ] Basic AutoMod features (Future)
@@ -38,8 +38,8 @@ A basic twitch chat bot that utilizes the libraries: twitchio v2.8.2, Random, an
   - Delete the lines of code below that commented section to the next section (Leave DO NOT DELETE Alone)
 
   #### Development Notes
+  ~~Unavailable at this time~~
 
-  Not Released Yet
 
 
 
