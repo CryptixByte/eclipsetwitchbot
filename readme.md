@@ -20,8 +20,8 @@ A basic twitch chat bot that utilizes the libraries: twitchio v2.8.2, Random, an
   - A Client ID is given by registering an application on the Twitch Developers Console [^2]
     [^2]: https://dev.twitch.tv/console
 - **Getting OAuth Token**
-  - Go to your browser copy and paste the link below in the search bar and replace [ClientID] with your Client ID (Including the [])
-  - https://id.twitch.tv/oauth2/authorize?client_id=[ClientID]&response_type=token&redirect_uri=http://localhost&scope=chat:read+chat:edit
+  - Go to your browser copy and paste the link below in the search bar and replace [ClientID] with your Client ID (Including the []) [^3]
+  [^3]: https://id.twitch.tv/oauth2/authorize?client_id=[ClientID]&response_type=token&redirect_uri=http://localhost&scope=chat:read+chat:edit
   - If I remember correctly, the page will ask you to authorize your Twitch account. Click ‘Yes,’ and you’ll find your Twitch OAuth token at the top of the browser’s address bar.
 - **Replacing Placeholders In Code**
   - Using a text editor open main.py
@@ -36,6 +36,7 @@ A basic twitch chat bot that utilizes the libraries: twitchio v2.8.2, Random, an
   #### Development Notes
 
   Not Released Yet
+
 
 
 
