@@ -14,8 +14,8 @@ A basic twitch chat bot that utilizes the libraries: twitchio v2.8.2, Random, an
   - Enter 'cd [location of folder]'
   - Enter 'py -m venv venv'
   - Enter 'venv\Scripts\activate'
-  - Enter 'py -m pip install twitchio==2.8.2'
-    - We're currently using 2.8.2 
+  - Enter 'py -m pip install twitchio==2.8.2' [^1]
+    [^1] We're currently using 2.8.2 
 - **Getting Client ID**
   - A Client ID is given by registering an application on the Twitch Developers Console (https://dev.twitch.tv/console)
 - **Getting OAuth Token**
@@ -35,6 +35,7 @@ A basic twitch chat bot that utilizes the libraries: twitchio v2.8.2, Random, an
   #### Development Notes
 
   Not Released Yet
+
 
 
 
