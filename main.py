@@ -1,13 +1,6 @@
 from twitchio.ext import commands
 import random
 
-
-
-
-#=================
-#UNCOMMENT ON RELEASE
-#=================
-
 bot = commands.Bot(
     token='oauth:[PLACEHOLDER]',
     client_id='[PLACEHOLDER]',
@@ -16,8 +9,10 @@ bot = commands.Bot(
     initial_channels=['[PLACEHOLDER]']
 )
 
+#===============
+#=DO NOT DELETE=
+#===============
 
-#Basic Twitch Commands with Song Requests System
 @bot.event
 async def event_message(message):
     if message.author.name.lower() == bot.nick.lower():
@@ -67,7 +62,12 @@ async def edison(ctx):
 async def randomdeck(ctx):
     await ctx.send(f'test')
 
+#===============
+#=DO NOT DELETE=
+#===============
+
 if __name__ == "__main__":
     print("🚀 Launching bot . . .")
 
     bot.run()
+
