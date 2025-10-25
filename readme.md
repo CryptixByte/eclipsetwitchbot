@@ -4,9 +4,9 @@
 A basic twitch chat bot that utilizes the libraries: twitchio v2.8.2, Random, and [PLACEHOLDER]
 
 ### Features
-- Basic AutoMod features (Future)
-- Several Basic Bot Commands 
-- Song Requests (Future)
+- [] Basic AutoMod features (Future)
+- [] Several Basic Bot Commands (Still working on some commands)
+- [] Song Requests (Future)
 
 ### Bot Set Up
 - **getting twitchio with venv**
@@ -35,6 +35,7 @@ A basic twitch chat bot that utilizes the libraries: twitchio v2.8.2, Random, an
   #### Development Notes
 
   Not Released Yet
+
 
 
 
