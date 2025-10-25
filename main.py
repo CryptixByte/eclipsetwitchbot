@@ -21,7 +21,7 @@ async def event_message(message):
 
 @bot.command(name='socials')
 async def socials(ctx):
-    await ctx.send(f'YouTube:  | Discord: ')
+    await ctx.send(f'YouTube:  | Discord: | X: ')
 
 #Song Request System
 #========================================================
@@ -70,4 +70,5 @@ if __name__ == "__main__":
     print("🚀 Launching bot . . .")
 
     bot.run()
+
 
