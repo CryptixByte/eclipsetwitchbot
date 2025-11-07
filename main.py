@@ -21,7 +21,11 @@ async def event_message(message):
 
 @bot.command(name='socials')
 async def socials(ctx):
-    await ctx.send(f'YouTube:  | Discord: | X: ')
+    await ctx.send(f'YouTube: [PLACEHOLDER] | Discord: [PLACEHOLDER] | X: [PLACEHOLDER]')
+
+@bot.command(name='lurk')
+async def lurk(ctx):
+    await ctx.send(f'Thanks for lurking @{ctx.message.author.name}!')
 
 #Song Request System
 #========================================================
@@ -129,6 +133,7 @@ if __name__ == "__main__":
     print("🚀 Launching bot . . .")
 
     bot.run()
+
 
 
 
