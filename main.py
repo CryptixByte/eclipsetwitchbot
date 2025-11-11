@@ -27,6 +27,10 @@ async def socials(ctx):
 async def lurk(ctx):
     await ctx.send(f'Thanks for lurking @{ctx.message.author.name}!')
 
+@bot.command(name='so')
+async def so(ctx):
+    await ctx.send(f'Shout out @{ctx.message}! www.twitch.tv/{ctx.message}')
+
 #Song Request System
 #========================================================
 #Delete this section if you do not want song requests
@@ -133,6 +137,7 @@ if __name__ == "__main__":
     print("🚀 Launching bot . . .")
 
     bot.run()
+
 
 
 
